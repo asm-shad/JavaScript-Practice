@@ -12,3 +12,13 @@ console.log(a) // output : false
 
 const b = isNaN(2-10) // number : -8
 console.log(b) // output : false
+
+const a = {};
+const b = {key: 'b'};
+const c = {key: 'c'};
+
+a[b] = 143;
+a[c] = 286;
+
+console.log(a[b]);
+console.log(b.string());
