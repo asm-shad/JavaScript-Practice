@@ -10,7 +10,7 @@ function inchToFeet2(inch){
     const feetNumber = parseInt(feetFraction);
     const inchRemaining = inch % 12;
     const result = feetNumber + ' ft ' + inchRemaining + ' Inch';
-    return resul t;
+    return result;
 }
 
 function mileToKilometer(mile){
@@ -18,7 +18,7 @@ function mileToKilometer(mile){
     return kilo;
 }
 
-const kiloToMile(kilo){
+function kiloToMile(kilo){
     const mile = kilo * 0.621371;
     return mile;
 }
